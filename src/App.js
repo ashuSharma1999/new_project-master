@@ -75,7 +75,7 @@ function App() {
   };
 
   const getData = () => {
-    axios.get("http://localhost:9089/data").then((res) => {
+    axios.get("http://localhost:5000/data").then((res) => {
       setDbData(res.data);
     });
   };
@@ -85,20 +85,20 @@ function App() {
   }, []);
 
   const getToDB = async (id) => {
-    return await axios.get(`http://localhost:9089/data${id}`);
+    return await axios.get(`http://localhost:5000/data${id}`);
     // setDbData(res.data);
   };
   // console.log(dbData);
 
   const postToDB = async () => {
-    axios.get("http://localhost:9089/data").then((res) => {
+    axios.get("http://localhost:5000/data").then((res) => {
       setDbData(res.data);
     });
 
     // console.log(finalData);
     if (!finalData.formValues) return;
 
-    let postDb = await axios.post("http://localhost:9089/data", {
+    let postDb = await axios.post("http://localhost:5000/data", {
       ...finalData,
       id: "IC" + Math.trunc(Math.random() * 99),
     });
@@ -114,7 +114,7 @@ function App() {
   const deleteData = async (id) => {
     // loop through idsToDelete array and make axios calls on each one of the id in the array
 
-    let del = await axios.delete(`http://localhost:9089/data/${id}`);
+    let del = await axios.delete(`http://localhost:5000/data/${id}`);
     // console.log(del.data);
   };
 
