@@ -9,11 +9,7 @@ const Edit = (props) => {
   //   props.onEdit(node);
   //   console.log(idToEdit);
   // };
-  // const editData = (id) => {
-  //   console.log(id);
-  //   return id;
-
-  // };
+ 
 
   //manager app
 
