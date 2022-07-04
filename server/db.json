@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+      "formValues": {
+        "department": "PDG"
+      },
+      "desValue": {
+        "designation": "Team Lead"
+      },
+      "stateValue": {
+        "States": "Assam"
+      },
+      "districtValue": {
+        "districts": "Biswanath"
+      },
+      "id": "IC33"
+    },
+    {
+      "formValues": {
+        "department": "PDG"
+      },
+      "desValue": {
+        "designation": "Intern"
+      },
+      "stateValue": {
+        "States": "Dadra and Nagar Haveli (UT)"
+      },
+      "districtValue": {
+        "districts": "Dadra & Nagar Haveli"
+      },
+      "id": "IC77"
+    },
+    {
+      "formValues": {
+        "department": "SDG"
+      },
+      "desValue": {
+        "designation": "Engineer"
+      },
+      "stateValue": {
+        "States": "Arunachal Pradesh"
+      },
+      "districtValue": {
+        "districts": "West Kameng"
+      },
+      "id": "IC34"
+    }
+  ]
+}

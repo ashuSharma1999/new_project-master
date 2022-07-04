@@ -1,0 +1,37 @@
+
+[
+    {
+        "id": "IC9089",
+        "name": "Intern"
+      },
+      {
+        "id": "IC9104",
+        "name": "Graduate Trainee"
+      },
+      {
+        "id": "IC9003",
+        "name": "Engineer"
+      },
+      {
+        "id": "IC9105",
+        "name": "Team Lead"
+      },
+      {
+        "id": "IC9004",
+        "name": "Assistant Manager"
+      },
+      {
+        "id": "IC9108",
+        "name": "Senior Manager"
+      }
+      ,
+      {
+        "id": "IC9106",
+        "name": "Manager"
+      }
+      ,
+      {
+        "id": "IC9100",
+        "name": "Head Of Department"
+      }
+    ]
