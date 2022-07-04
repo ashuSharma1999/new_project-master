@@ -40,6 +40,24 @@ let Dropdown = (props) => {
   //   getDistrict()
   // },[]);
 
+  //DateOfBirth
+
+
+
+  
+//   const DateOfBirth = (props) => {
+//     // validation --> minimum 100 years back could be selected and maximum D.O.B. could be today
+//     const minday= "1922-01-01";
+//     let today = new Date();
+    
+//     let aaj = `${("0"+today.getFullYear()).slice(-4)}-${("0" + (today.getMonth() + 1)).slice(-2)}-${("0" + today.getDate()).slice(-2)}`;
+    
+//     const [dob, setDob] = useState("");
+//     const onInputChange = e => {
+//         setDob(e.target.value);
+//     };
+// props.saveDob(dob);
+
   return (
     <>
       <form>
@@ -63,9 +81,7 @@ let Dropdown = (props) => {
               </td>
             </tr>
             <tr>
-              <td>
-                <label htmlFor="">Organization</label>
-              </td>
+              
               <td>
                 <input type="text" name="" id="" />
               </td>
@@ -101,7 +117,7 @@ let Dropdown = (props) => {
             </tr>
             <tr>
               <td>
-                <label htmlFor="">Are you Leagend</label>
+                <label htmlFor="">Are you Ex-Employee</label>
               </td>
               <td>
                 <input type="radio" name="" id="" />
@@ -112,17 +128,17 @@ let Dropdown = (props) => {
             </tr>
             <tr>
               <td>
-                <label htmlFor="">Favourite Color</label>
+                <label htmlFor="">Favourite Code Editor</label>
               </td>
               <td>
                 <input type="checkbox" name="" id="" />
-                Red
+                Sublime
                 <input type="checkbox" name="" id="" />
-                Blue
+                VS Code
                 <input type="checkbox" name="" id="" />
-                Green
+                Eclipse
                 <input type="checkbox" name="" id="" />
-                Yellow
+                Atom
               </td>
             </tr>
             <tr>
