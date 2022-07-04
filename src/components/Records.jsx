@@ -24,7 +24,7 @@ function Records(props) {
 
   return (
     <>
-      <div>
+      <div style={{textAlign:"center"}}>
         <p>
           {" "}
           <b>--RECORDS--</b>
@@ -40,7 +40,7 @@ function Records(props) {
                   }}
                   type="checkbox"
                 />
-                <br />
+              
                 <label htmlFor="">
                   <strong>ID: </strong>
                 </label>

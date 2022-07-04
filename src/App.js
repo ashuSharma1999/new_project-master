@@ -1,13 +1,10 @@
 import { useState, useEffect } from "react";
 import Form from "./components/Form";
-import Submit from "./components/Submit";
+
 import axios from "axios";
 import Records from "./components/Records";
 import Edit from "./components/Edit";
-import Text from "./components/Text";
-import Radio from "./components/Radio";
-import DatePicker from "./components/DatePicker";
-import Checkbox from "./components/Checkbox";
+
 
 function App() {
   const [formValues, setFormValues] = useState({});
@@ -183,7 +180,7 @@ function App() {
         style={{
           align: "center",
           padding: "5px",
-          margin: "0px 0px 0px 10px",
+          margin: "0px 0px 0px 41rem",
           color: "white",
           background: "red",
         }}
