@@ -4,10 +4,6 @@ import Submit from "./components/Submit";
 import axios from "axios";
 import Records from "./components/Records";
 import Edit from "./components/Edit";
-import Text from "./components/Text";
-import Radio from "./components/Radio";
-import DatePicker from "./components/DatePicker";
-import Checkbox from "./components/Checkbox";
 
 function App() {
   const [formValues, setFormValues] = useState({});

@@ -80,12 +80,7 @@ let Dropdown = (props) => {
                 <input type="text" name="" id="" />
               </td>
             </tr>
-            <tr>
-              
-              <td>
-                <input type="text" name="" id="" />
-              </td>
-            </tr>
+            
             <tr>
               <td>
                 <label htmlFor="">Date of Birth</label>
