@@ -48,7 +48,7 @@ let Dropdown = (props) => {
           <table>
             <tr>
               <td>
-                <label htmlFor="">Name</label>
+                <label className="lableCss">Name</label>
               </td>
               <td>
                 <input type="text" name="" id="" />
@@ -56,7 +56,7 @@ let Dropdown = (props) => {
             </tr>
             <tr>
               <td>
-                <label htmlFor="">Organization</label>
+                <label className="lableCss" htmlFor="lableCss">Organization</label>
               </td>
               <td>
                 <input type="text" name="" id="" />
@@ -64,7 +64,7 @@ let Dropdown = (props) => {
             </tr>
             <tr>
               <td>
-                <label htmlFor="">Organization</label>
+                <label className="lableCss" htmlFor="">Organization</label>
               </td>
               <td>
                 <input type="text" name="" id="" />
@@ -72,7 +72,7 @@ let Dropdown = (props) => {
             </tr>
             <tr>
               <td>
-                <label htmlFor="">Date of Birth</label>
+                <label className="lableCss" htmlFor="">Date of Birth</label>
               </td>
               <td>
                 <input type="date" name="" id="" />
@@ -80,7 +80,7 @@ let Dropdown = (props) => {
             </tr>
             <tr>
               <td>
-                <label htmlFor="">Date of Joining</label>
+                <label className="lableCss" htmlFor="">Date of Joining</label>
               </td>
               <td>
                 <input type="date" name="" id="" />
@@ -88,7 +88,7 @@ let Dropdown = (props) => {
             </tr>
             <tr>
               <td>
-                <label htmlFor="">Gender</label>
+                <label className="lableCss" htmlFor="">Gender</label>
               </td>
               <td>
                 <input type="radio" name="" id="" />
@@ -101,7 +101,7 @@ let Dropdown = (props) => {
             </tr>
             <tr>
               <td>
-                <label htmlFor="">Are you Leagend</label>
+                <label className="lableCss" htmlFor="">Are you Leagend</label>
               </td>
               <td>
                 <input type="radio" name="" id="" />
@@ -112,7 +112,7 @@ let Dropdown = (props) => {
             </tr>
             <tr>
               <td>
-                <label htmlFor="">Favourite Color</label>
+                <label className="lableCss" htmlFor="">Favourite Color</label>
               </td>
               <td>
                 <input type="checkbox" name="" id="" />
@@ -127,7 +127,7 @@ let Dropdown = (props) => {
             </tr>
             <tr>
               <td>
-                <label htmlFor="">Favourite Language</label>
+                <label className="lableCss" htmlFor="">Favourite Language</label>
               </td>
               <td>
                 <input type="checkbox" name="" id="" />
@@ -142,8 +142,8 @@ let Dropdown = (props) => {
             {/* State */}
             <tr>
               <td>
-                <label>
-                  <b>Select State: </b>
+                <label className="lableCss">
+                  Select State:
                 </label>
               </td>
               <td>
@@ -165,8 +165,8 @@ let Dropdown = (props) => {
             </tr>
             <tr>
               <td>
-                <label>
-                  <b>Select District:</b>{" "}
+                <label className="lableCss">
+                  Select District:{" "}
                 </label>
               </td>
               <td>
@@ -196,8 +196,8 @@ let Dropdown = (props) => {
             </tr>
             <tr>
               <td>
-                <label>
-                  <b> Select Department:</b>{" "}
+                <label className="lableCss">
+                  Select Department{" "}
                 </label>
               </td>
               <td>
@@ -226,8 +226,8 @@ let Dropdown = (props) => {
             </tr>
             <tr>
               <td>
-                <label>
-                  <b>Select Designation: </b>
+                <label className="lableCss">
+                  Select Designation
                 </label>
               </td>
               <td>
